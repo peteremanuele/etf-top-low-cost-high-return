@@ -1,12 +1,13 @@
 from flask import Flask, render_template, request
 import pandas as pd
+import os
 
 app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
     # Read the CSV file into a DataFrame
-    csv_file_path = "./../data/input.csv"
+    csv_file_path = os.path.join(os.path.dirname(__file__), 'data', 'input.csv')
     df = pd.read_csv(csv_file_path)
     
     # Convert DataFrame to list of dictionaries for Handsontable
