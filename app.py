@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/', methods=['GET', 'POST'])
 def home():
     # Read the CSV file into a DataFrame
-    csv_file_path = "../data/input.csv"
+    csv_file_path = "./../data/input.csv"
     df = pd.read_csv(csv_file_path)
     
     # Convert DataFrame to list of dictionaries for Handsontable
