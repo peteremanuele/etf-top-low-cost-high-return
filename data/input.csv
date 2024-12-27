@@ -1,0 +1,26 @@
+ticker,fund,expenseRatio,return,letterGrade,fund_id,pb,pe,equity class
+SPYG,SPDR Portfolio S&P 500 Growth ETF,4.0,0.41000000000000003,A,562,9.93,35.197,Equity
+SCHG,Schwab U.S. Large-Cap Growth ETF,4.0,0.401,A,572,11.084,41.383,Equity
+IUSG,iShares Core S&P U.S. Growth ETF,4.0,0.394,A,674,9.373,34.527,Equity
+VUG,Vanguard Growth ETF,4.0,0.378,A,563,12.119,39.562,Equity
+MGK,Vanguard Mega Cap Growth ETF,7.0,0.381,A,568,13.603,39.451,Equity
+VONG,Vanguard Russell 1000 Growth ETF,8.0,0.382,A,574,13.316,37.156,Equity
+XLC,Communication Services Select Sector SPDR Fund,9.0,0.38,A,3136,3.328,31.41,Equity
+GABF,Gabelli Financial Services Opportunities ETF,10.0,0.454,A,6219,2.294,23.248,Equity
+VOOG,Vanguard S&P 500 Growth ETF,10.0,0.40900000000000003,A,573,11.481,34.435,Equity
+SPMO,Invesco S&P 500 Momentum ETF,13.0,0.497,A,2199,4.994,29.828,Equity
+SEIM,SEI Enhanced U.S. Large Cap Momentum Factor ETF,15.0,0.429,A,6226,6.819,29.896,Equity
+IETC,iShares U.S. Tech Independence Focused ETF,18.0,0.418,A,2909,10.301,43.521,Equity
+IVW,iShares S&P 500 Growth ETF,18.0,0.40700000000000003,A,560,10.064,35.673,Equity
+FELG,Fidelity Enhanced Large Cap Growth ETF,18.0,0.406,A,6976,13.614,37.365,Equity
+IWF,iShares Russell 1000 Growth ETF,19.0,0.381,A,561,14.129,40.1,Equity
+IWY,iShares Russell Top 200 Growth ETF,20.0,0.399,A,570,14.606,39.668,Equity
+XLG,Invesco S&P 500 Top 50 ETF,20.0,0.379,A,531,7.275,32.125,Equity
+MAGS,Roundhill Magnificent Seven ETF,29.0,0.736,A,6601,13.749,41.349,Equity
+SIXG,Defiance Connective Technologies ETF,30.0,0.378,A,4994,5.284,295.975,Equity
+XMMO,Invesco S&P MidCap Momentum ETF,34.0,0.402,A,1274,3.609,19.611,Equity
+SMH,VanEck Semiconductor ETF,35.0,0.444,A,815,6.188,50.381,Equity
+KCE,SPDR S&P Capital Markets ETF,35.0,0.398,A,686,3.203,25.596,Equity
+KBWB,Invesco KBW Bank ETF,35.0,0.384,A,1388,1.2429999999999999,15.66,Equity
+XTL,SPDR S&P Telecom ETF,35.0,0.38,A,837,2.166,-18.137,Equity
+TGRT,T. Rowe Price Growth ETF,38.0,0.374,A,6679,12.18,41.336,Equity

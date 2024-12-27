@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwan Finance Self Managed 5% Leader ETFs Top 25</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/handsontable@8.4.0/dist/handsontable.full.min.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .content {
+            text-align: center;
+            width: 80%;
+            margin: auto;
+        }
+        #spreadsheet {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Kwan Finance</h1>
+        <h2>Self Managed Top 5% Low Cost High Return ETF Algorythm </h2>
+        <p>
+            The ETFs listed here are selected based on a rigorous algorithm designed to identify top-performing, cost-effective investment options. We only include ETFs with an A-grade rating, ensuring a high level of quality. To maximize potential returns, we filter for non-leveraged ETFs that are in the top 5% of performance. Finally, we prioritize cost efficiency by sorting these ETFs by their expense ratios from low to high, followed by sorting by returns from high to low. This strategy enables investors to allocate their funds across these leading ETFs and periodically rebalance their portfolios to maintain optimal performance.
+        </p>
+        <div id="spreadsheet"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/handsontable@8.4.0/dist/handsontable.full.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const container = document.getElementById('spreadsheet');
+            const hot = new Handsontable(container, {
+                data: {{ data | tojson }},
+                colHeaders: true,
+                rowHeaders: true,
+                columns: {{ columns | tojson }},
+                dropdownMenu: true,
+                contextMenu: true,
+                filters: true,
+                columnSorting: true,
+                licenseKey: 'non-commercial-and-evaluation'  // Add the license key here
+            });
+        });
+    </script>
+</body>
+</html>
